@@ -13,7 +13,7 @@ html, body {
     width:10.2em;
     height: 1.5em;
     position:absolute;
-    left: 55%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -21,7 +21,7 @@ html, body {
 #intro #intro-button {
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 80%;
     transform: translate(-50%, -50%);
 }
 
