@@ -1,10 +1,12 @@
 function animasiIntro(){
-	$("#text span").velocity("transition.slideLeftIn",{
-								stagger: 150,
-								complete: function(){
-									animasiButtonStart();
-								}
-							 });
+	$("#text span").
+		velocity(
+		"transition.slideLeftIn",{
+			stagger: 150,
+			complete: function(){
+				animasiButtonStart();
+			}
+	});
 }
 
 function animasiButtonStart(){
